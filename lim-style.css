@@ -1,0 +1,97 @@
+*{
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* BOX*/
+.contenitore{
+  width: 750px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 70px;
+}
+
+/* Logo e Titolo*/
+header{
+  color: #7FFF00;
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+header img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+h1{
+  font-size: 30px;
+  margin: 0;
+}
+
+/* CTA Prenotazione*/
+nav section{
+  padding: 8px;
+  background-color: #7FFF00;
+  text-align: center;
+}
+
+button{
+  font-size: 10px;
+}
+
+/* SEZIONE PRINCIPALE*/
+main section{
+  color: white;
+}
+
+section.lista{
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 19px;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+input[type=checkbox]{
+  width: 10px;
+  height: 10px;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+section div{
+  font-size: 13px;
+}
+
+/* % BATTERIE*/
+section div:last-child{
+  height: 20px;
+  border-radius: 5px;
+}
+
+#batteria1{
+  background-color: #f5b453;
+  width: 35%;
+}
+
+#batteria2{
+  background-color: #1ec31e;
+  width: 60%;
+}
+
+#batteria3{
+  background-color: #be4141;
+  width: 15%;
+}
